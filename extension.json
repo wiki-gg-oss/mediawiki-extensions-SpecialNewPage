@@ -1,0 +1,46 @@
+{
+	"name": "Special:NewPage",
+	"version": "1.0.0",
+
+	"author": [
+		"alex4401"
+	],
+	"url": "https://github.com/alex4401/mediawiki-extensions-NewPage",
+	"descriptionmsg": "newpage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+
+	"requires": {
+		"MediaWiki": ">= 1.39.0",
+		"platform": {
+			"php": ">= 8.1"
+		}
+	},
+
+	"MessagesDirs": {
+		"NewPage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NewPageAlias": "languages/Alias.php"
+	},
+
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\NewPage\\": "src/"
+	},
+	
+	"Hooks": {},
+    "HookHandlers": {
+        "NewPage": {
+            "class": "MediaWiki\\Extension\\NewPage\\Hooks",
+			"services": [
+				"MainConfig"
+			]
+        }
+    },
+
+	"config_prefix": "NewPage",
+
+	"manifest_version": 2
+}
