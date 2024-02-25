@@ -35,13 +35,12 @@
 		}
 	},
 
-	"Hooks": {},
+	"Hooks": {
+		"SidebarBeforeOutput": "NewPage"
+	},
     "HookHandlers": {
         "NewPage": {
-            "class": "MediaWiki\\Extension\\NewPage\\Hooks",
-			"services": [
-				"MainConfig"
-			]
+            "class": "MediaWiki\\Extension\\NewPage\\Hooks"
         }
     },
 

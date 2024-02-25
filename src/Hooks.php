@@ -1,19 +1,21 @@
 <?php
 namespace MediaWiki\Extension\NewPage;
 
-use Config;
+use Skin;
+use SpecialPage;
 
-final class Hooks
+final class Hooks implements
+    \MediaWiki\Hook\SidebarBeforeOutputHook
 {
-    /** @var Config */
-    private Config $config;
-
-    /**
-     * @param Config $config
-     */
-    public function __construct(
-        Config $config
-    ) {
-        $this->config = $config;
-    }
+	/**
+	 * @param Skin $skin
+	 * @param array &$sidebar Sidebar content
+	 * @return void
+	 */
+	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
+		$sidebar['TOOLBOX']['extnewpage'] = [
+			'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
+			'text' => $skin->msg( 'newpage-toolbox-label' )->text(),
+		];
+	}
 }
