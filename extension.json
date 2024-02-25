@@ -29,7 +29,12 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\NewPage\\": "src/"
 	},
-	
+	"SpecialPages": {
+		"NewPage": {
+			"class": "MediaWiki\\Extension\\NewPage\\SpecialPages\\SpecialNewPage"
+		}
+	},
+
 	"Hooks": {},
     "HookHandlers": {
         "NewPage": {
