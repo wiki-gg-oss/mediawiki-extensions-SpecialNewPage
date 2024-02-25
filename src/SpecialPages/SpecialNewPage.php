@@ -16,7 +16,7 @@ final class SpecialNewPage extends FormSpecialPage {
 		return [
 			'title' => [
 				'class' => HtmlComplexTitleField::class,
-				'label-message' => 'newpage-field-title',
+				'label-message' => 'extnewpage-field-title',
 				'creatable' => true,
 				'required' => true,
             ]

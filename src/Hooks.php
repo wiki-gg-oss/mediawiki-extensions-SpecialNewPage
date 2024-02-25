@@ -15,7 +15,7 @@ final class Hooks implements
 	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		$sidebar['TOOLBOX']['extnewpage'] = [
 			'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
-			'text' => $skin->msg( 'newpage-toolbox-label' )->text(),
+			'text' => $skin->msg( 'extnewpage-toolbox-label' )->text(),
 		];
 	}
 }

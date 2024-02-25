@@ -4,7 +4,7 @@
             "alex4401"
         ]
     },
-    "newpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly way of creating pages.",
-    "newpage-field-title": "Enter the desired title:",
-    "newpage-toolbox-label": "New page"
+    "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly way of creating pages.",
+    "extnewpage-field-title": "Enter the desired title:",
+    "extnewpage-toolbox-label": "New page"
 }

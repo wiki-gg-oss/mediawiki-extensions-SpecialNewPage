@@ -6,7 +6,7 @@
 		"alex4401"
 	],
 	"url": "https://github.com/alex4401/mediawiki-extensions-NewPage",
-	"descriptionmsg": "newpage-desc",
+	"descriptionmsg": "extnewpage-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 
