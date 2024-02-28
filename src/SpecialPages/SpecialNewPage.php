@@ -23,6 +23,16 @@ final class SpecialNewPage extends FormSpecialPage {
 		];
 	}
 
+	/**
+	 * Override the submit button's message
+	 * @return HTMLForm|null
+	 */
+	protected function getForm() {
+		$result = parent::getForm();
+		$result->setSubmitTextMsg( $this->msg( 'create' ) );
+		return $result;
+	}
+
 	protected function getDisplayFormat() {
 		return 'ooui';
 	}
