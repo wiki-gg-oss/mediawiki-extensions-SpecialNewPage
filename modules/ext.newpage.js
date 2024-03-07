@@ -1,5 +1,6 @@
 mw.hook( 'htmlform.enhance' ).add( $root => {
 	const
+        formattedNamespaces = mw.config.get( 'wgFormattedNamespaces' ),
         fieldLayout = OO.ui.infuse( $root.find( '.mw-htmlform-field-HtmlComplexTitleField' ) ),
         complexWidget = mw.widgets.ComplexTitleInputWidget.static.infuse( $root.find( '#mw-input-wptitle' ) ),
         titleWidget = complexWidget.title,
@@ -29,11 +30,12 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
         }
 
         const
-            nsMsg = `extnewpage-newpagetext-${namespaceInput.getValue()}`,
+            nsMsg = `extnewpage-newpagetext-${namespaceId}`,
             fallbackMsg = 'extnewpage-newpagetext-fallback',
             msg = mw.message(
                 mw.messages.exists( nsMsg ) ? nsMsg : fallbackMsg,
-                title.getPrefixedText()
+                title.getPrefixedText(),
+                formattedNamespaces[ namespaceId ]
             );
         beforeSubmitText.innerHTML = msg.parse();
 
