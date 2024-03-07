@@ -43,10 +43,12 @@ class HtmlComplexTitleField extends HTMLTextField {
 		}
 
 		$title = Title::makeTitleSafe( $value['ns'], $value['text'] );
-		$text = $title->getPrefixedText();
+		if ( !$title ) {
+			return $this->msg( 'title-invalid' );
+		}
 
 		if ( $this->mParams['creatable'] && !$title->canExist() ) {
-			return $this->msg( 'htmlform-title-not-creatable', $text );
+			return $this->msg( 'htmlform-title-not-creatable', $title->getPrefixedText() );
 		}
 
 		return true;
