@@ -38,7 +38,8 @@
 				"ext.newpage.js"
 			],
 			"messages": [
-				"extnewpage-newpagetext-fallback"
+				"extnewpage-newpagetext-fallback",
+				"title-invalid"
 			],
 			"targets": [ "desktop", "mobile" ]
 		}
