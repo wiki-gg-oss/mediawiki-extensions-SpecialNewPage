@@ -58,6 +58,7 @@ class HtmlComplexTitleField extends HTMLTextField {
 		];
 		$params['title'] = [
 			'name' => $this->mName . '-text',
+			'validateTitle' => true,
 		];
 		if ( $this->mParams['creatable'] ) {
 			$params['title']['suggestions'] = false;
