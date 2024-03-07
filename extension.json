@@ -9,14 +9,12 @@
 	"descriptionmsg": "extnewpage-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
-
 	"requires": {
 		"MediaWiki": ">= 1.39.0",
 		"platform": {
 			"php": ">= 8.1"
 		}
 	},
-
 	"MessagesDirs": {
 		"NewPage": [
 			"i18n"
@@ -25,7 +23,26 @@
 	"ExtensionMessagesFiles": {
 		"NewPageAlias": "languages/Alias.php"
 	},
-
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SpecialNewPage/modules"
+	},
+	"ResourceModules": {
+		"ext.newpage": {
+			"class": "MediaWiki\\Extension\\NewPage\\ResourceLoader\\NewPageModule",
+			"es6": true,
+			"dependencies": [
+				"mediawiki.widgets"
+			],
+			"packageFiles": [
+				"ext.newpage.js"
+			],
+			"messages": [
+				"extnewpage-newpagetext-fallback"
+			],
+			"targets": [ "desktop", "mobile" ]
+		}
+	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\NewPage\\": "src/"
 	},
@@ -34,7 +51,6 @@
 			"class": "MediaWiki\\Extension\\NewPage\\SpecialPages\\SpecialNewPage"
 		}
 	},
-
 	"Hooks": {
 		"SidebarBeforeOutput": "NewPage"
 	},
@@ -43,8 +59,6 @@
             "class": "MediaWiki\\Extension\\NewPage\\Hooks"
         }
     },
-
 	"config_prefix": "NewPage",
-
 	"manifest_version": 2
 }

@@ -10,6 +10,15 @@ final class SpecialNewPage extends FormSpecialPage {
 	}
 
 	/**
+	 * Add header elements like block log entries, etc.
+	 * @return string
+	 */
+	protected function preHtml() {
+		$this->getOutput()->addModules( [ 'ext.newpage' ] );
+		return parent::preHtml();
+	}
+
+	/**
 	 * @return HTMLForm
 	 */
 	protected function getFormFields() {

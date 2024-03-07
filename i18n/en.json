@@ -4,7 +4,9 @@
             "alex4401"
         ]
     },
-    "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly way of creating pages.",
+    "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly and quicker way of creating pages.",
     "extnewpage-field-title": "Enter the desired title:",
-    "extnewpage-toolbox-label": "New page"
+    "extnewpage-toolbox-label": "New page",
+    "extnewpage-newpagetext-fallback": "You are about to create a $1 page called [[$2]].",
+    "extnewpage-newpagetext-0": "You are about to create an article called [[$1]]."
 }
