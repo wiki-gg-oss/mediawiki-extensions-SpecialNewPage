@@ -3,6 +3,7 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
         complexWidget = mw.widgets.ComplexTitleInputWidget.static.infuse( $root.find( '#mw-input-wptitle' ) ),
         titleWidget = complexWidget.title,
         namespaceInput = complexWidget.namespace,
+        submitButton = OO.ui.infuse( $root.find( '.mw-htmlform-submit' ) ),
         beforeSubmitText = document.createElement( 'p' );
 
     function updateSubmitText() {
@@ -11,6 +12,7 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
 
         if ( !title ) {
             beforeSubmitText.style.display = 'none';
+            submitButton.setDisabled( true );
             return;
         }
 
@@ -23,6 +25,7 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
             );
         beforeSubmitText.innerHTML = msg.parse();
         beforeSubmitText.style.display = 'block';
+        submitButton.setDisabled( false );
     }
 
     titleWidget.on( 'change', updateSubmitText );
