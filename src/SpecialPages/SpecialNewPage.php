@@ -2,6 +2,7 @@
 namespace MediaWiki\Extension\NewPage\SpecialPages;
 
 use FormSpecialPage;
+use Html;
 use Title;
 
 final class SpecialNewPage extends FormSpecialPage {
@@ -16,6 +17,16 @@ final class SpecialNewPage extends FormSpecialPage {
 	protected function preHtml() {
 		$this->getOutput()->addModules( [ 'ext.newpage' ] );
 		return parent::preHtml();
+	}
+
+	/**
+	 * Add post-HTML to the form
+	 * @return string
+	 */
+	protected function postHtml() {
+		return Html::element( 'hr' )
+			. Html::rawElement( 'h3', [], $this->msg( 'extnewpage-help-nsheading' ) )
+			. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' ) );
 	}
 
 	/**
