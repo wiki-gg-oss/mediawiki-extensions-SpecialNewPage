@@ -9,7 +9,7 @@
     "extnewpage-toolbox-label": "New page",
     "accesskey-extnewpage": "]",
     "extnewpage-help-nsheading": "Help! What are these fields for?",
-    "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See [https://www.mediawiki.org/wiki/Help:Namespaces Help:Namespaces] for more information.",
+    "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See <a href=\"https://www.mediawiki.org/wiki/Help:Namespaces\" target=\"_blank\" class=\"external\">Help:Namespaces</a> for more information.",
     "extnewpage-newpagetext-fallback": "You are about to create a $2 page called [[$1]].",
     "extnewpage-newpagetext-0": "You are about to create an article called [[$1]].",
     "extnewpage-newpagetext-1": "You are about to create a talk page called [[$1]].",

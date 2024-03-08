@@ -26,7 +26,7 @@ final class SpecialNewPage extends FormSpecialPage {
 	protected function postHtml() {
 		return Html::element( 'hr' )
 			. Html::rawElement( 'h3', [], $this->msg( 'extnewpage-help-nsheading' ) )
-			. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' ) );
+			. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' )->plain() );
 	}
 
 	/**
