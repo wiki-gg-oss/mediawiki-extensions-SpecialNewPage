@@ -7,6 +7,18 @@
     "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly and quicker way of creating pages.",
     "extnewpage-field-title": "Enter the desired title:",
     "extnewpage-toolbox-label": "New page",
-    "extnewpage-newpagetext-fallback": "You are about to create a $1 page called [[$2]].",
-    "extnewpage-newpagetext-0": "You are about to create an article called [[$1]]."
+    "extnewpage-newpagetext-fallback": "You are about to create a $2 page called [[$1]].",
+    "extnewpage-newpagetext-0": "You are about to create an article called [[$1]].",
+    "extnewpage-newpagetext-1": "You are about to create a talk page called [[$1]].",
+    "extnewpage-newpagetext-2": "You are about to create a user page called [[$1]]. Hold on! In the user namespace, you probably want to create a sub-page.",
+    "extnewpage-newpagetext-3": "You are about to create a user talk page called [[$1]]. Hold on! In the user namespace, you probably want to create a sub-page.",
+    "extnewpage-newpagetext-4": "You are about to create a project page called [[$1]]. Project pages are for meta information about this wiki.",
+    "extnewpage-newpagetext-5": "You are about to create a project talk page called [[$1]]. Project pages are for meta information about this wiki.",
+    "extnewpage-newpagetext-6": "You are about to create a file description page called [[$1]]. Hold on! You may want to use [[Special:Upload|Special:Upload instead]].",
+    "extnewpage-newpagetext-8": "You are about to create a MediaWiki interface page called [[$1]].",
+    "extnewpage-newpagetext-10": "You are about to create a template page called [[$1]].",
+    "extnewpage-newpagetext-12": "You are about to create a help page called [[$1]].",
+    "extnewpage-newpagetext-14": "You are about to create a category page called [[$1]].",
+    "extnewpage-newpagetext-828": "You are about to create a module page called [[$1]]. You can write Lua code here.",
+    "extnewpage-newpagetext-2900": "You are about to create an interactive map source code page called [[$1]]. Map pages are used with the DataMaps extension."
 }
