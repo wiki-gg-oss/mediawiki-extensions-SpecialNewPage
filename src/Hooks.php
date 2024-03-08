@@ -1,6 +1,7 @@
 <?php
 namespace MediaWiki\Extension\NewPage;
 
+use Linker;
 use Skin;
 use SpecialPage;
 
@@ -16,6 +17,7 @@ final class Hooks implements
 		$sidebar['TOOLBOX']['extnewpage'] = [
 			'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
 			'text' => $skin->msg( 'extnewpage-toolbox-label' )->text(),
+			'accesskey' => Linker::accesskey( 'extnewpage' ),
 		];
 	}
 }

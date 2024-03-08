@@ -7,6 +7,7 @@
     "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly and quicker way of creating pages.",
     "extnewpage-field-title": "Enter the desired title:",
     "extnewpage-toolbox-label": "New page",
+    "accesskey-extnewpage": "]",
     "extnewpage-help-nsheading": "Help! What are these fields for?",
     "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See [https://www.mediawiki.org/wiki/Help:Namespaces Help:Namespaces] for more information.",
     "extnewpage-newpagetext-fallback": "You are about to create a $2 page called [[$1]].",
