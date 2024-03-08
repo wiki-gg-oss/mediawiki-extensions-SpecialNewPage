@@ -24,7 +24,7 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
         const namespaceId = namespaceInput.getValue(),
             title = mw.Title.makeTitle( namespaceId, titleWidget.getValue() );
 
-        if ( !title ) {
+        if ( !titleWidget.getValue() || !title ) {
             setValid( false );
             return;
         }
