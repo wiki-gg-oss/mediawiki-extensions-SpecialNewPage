@@ -45,12 +45,10 @@ final class SpecialNewPage extends FormSpecialPage {
 
 	/**
 	 * Override the submit button's message
-	 * @return HTMLForm|null
+	 * @param HTMLForm $form
 	 */
-	protected function getForm() {
-		$result = parent::getForm();
-		$result->setSubmitTextMsg( $this->msg( 'create' ) );
-		return $result;
+	protected function alterForm( HTMLForm $form ) {
+		$form->setSubmitTextMsg( $this->msg( 'create' ) );
 	}
 
 	protected function getDisplayFormat() {
