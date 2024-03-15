@@ -42,6 +42,12 @@
 				"title-invalid"
 			],
 			"targets": [ "desktop", "mobile" ]
+		},
+		"ext.newpage.styles": {
+			"styles": [
+				"ext.newpage.styles.less"
+			],
+			"targets": [ "desktop", "mobile" ]
 		}
 	},
 	"AutoloadNamespaces": {
