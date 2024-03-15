@@ -52,7 +52,7 @@ final class SpecialNewPage extends FormSpecialPage {
 				'padded' => true,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( 
-				   	Html::rawElement( 'h3', [], $this->msg( 'extnewpage-help-nsheading' ) )
+				   	Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-nsheading' ) )
 					. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' )->plain() )
 				),
 			] ) ,
@@ -62,7 +62,7 @@ final class SpecialNewPage extends FormSpecialPage {
 				'padded' => true,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( implode( ' ', [
-					Html::rawElement( 'h3', [], $this->msg( 'extnewpage-help-contributeheading' ) ),
+					Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-contributeheading' ) ),
 					$this->msg( 'extnewpage-help-contributetext' )->parse(),
 					$hasSearchDigest ? $this->msg( 'extnewpage-help-contributetext-searchdigest' )->parse() : false,
 				] ) ),
