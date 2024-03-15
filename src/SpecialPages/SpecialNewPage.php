@@ -49,7 +49,7 @@ final class SpecialNewPage extends FormSpecialPage {
 			new \OOUI\PanelLayout( [
 				'classes' => [ 'extnewpage-rail-module' ],
 				'expanded' => false,
-				'padded' => true,
+				'padded' => false,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( 
 				   	Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-nsheading' ) )
@@ -59,7 +59,7 @@ final class SpecialNewPage extends FormSpecialPage {
 			new \OOUI\PanelLayout( [
 				'classes' => [ 'extnewpage-rail-module' ],
 				'expanded' => false,
-				'padded' => true,
+				'padded' => false,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( implode( ' ', [
 					Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-contributeheading' ) ),

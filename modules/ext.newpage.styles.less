@@ -1,6 +1,7 @@
 .extnewpage-form-wrapper {
     display: flex;
     flex-wrap: wrap;
+    gap: 1.3rem;
 
     > .mw-htmlform-ooui-wrapper.oo-ui-panelLayout-padded {
         margin-top: 0;
@@ -14,16 +15,15 @@
 }
 
 .extnewpage-rail {
-    max-width: 40em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
     font-size: 98%;
+    flex: 1 1 30em;
 }
 
-.extnewpage-rail > .extnewpage-rail-module,
-.extnewpage-rail-module > h2:first-child {
+.extnewpage-rail > .extnewpage-rail-module > h2 {
+    font-size: 1.35em;
     margin-top: 0;
     padding-top: 0;
-}
-
-.extnewpage-rail-module > h2 {
-    font-size: 1.3em;
 }
