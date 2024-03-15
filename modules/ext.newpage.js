@@ -45,6 +45,6 @@ mw.hook( 'htmlform.enhance' ).add( $root => {
     titleWidget.on( 'change', updateSubmitText );
     namespaceInput.on( 'change', updateSubmitText );
     
-    beforeSubmitText.style.display = 'none';
+    updateSubmitText();
     $root.find( '.mw-htmlform-submit-buttons' ).before( beforeSubmitText );
 } );
