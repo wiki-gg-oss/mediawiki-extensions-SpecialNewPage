@@ -1,0 +1,29 @@
+{
+    "@metadata": {
+        "authors": [
+            "Horn772"
+        ]
+    },
+    "extnewpage-desc": "Добавляет [[Служебная:Новая страница]] для быстрого создания страниц, особенно удобный для новичков.",
+    "extnewpage-field-title": "Введите желаемый заголовок:",
+    "extnewpage-toolbox-label": "Новая страница",
+    "extnewpage-help-nsheading": "Помогите! Для чего нужны эти поля?",
+    "extnewpage-help-nstext": "Страницы MediaWiki разделяются на типы в зависимости от их пространств имён. Для подробной информации см. <a href=\"https://www.mediawiki.org/wiki/Help:Namespaces/ru\" target=\"_blank\" class=\"external\">Справка:Пространства имён</a>.",
+    "extnewpage-help-contributeheading": "Не знаете как лучще помочь?",
+    "extnewpage-help-contributetext": "Вы можете попробовать создать одну из [[Служебная:Требуемые страницы|требуемых страниц]] или [[Служебная:Требуемые категории|требуемых категорий]].",
+    "extnewpage-help-contributetext-searchdigest": "Вы также можете посмотреть [[Служебная:SearchDigest|список несуществующих страниц, по которым производился поиск]] на этой вики.",
+    "extnewpage-newpagetext-fallback": "Вы собираетесь создать страницу под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-0": "Вы собираетесь создать статью под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-1": "Вы собираетесь создать страницу обсуждения под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-2": "Вы собираетесь создать страницу участника под названием «<span class=\"extnewpage-new\">$1</span>». Не спешите! Возможно, вы хотите создать подстраницу в этом пространстве имён.",
+    "extnewpage-newpagetext-3": "Вы собираетесь создать страницу обсуждения участника под названием «<span class=\"extnewpage-new\">$1</span>». Не спешите! Возможно, вы хотите создать подстраницу в этом пространстве имён.",
+    "extnewpage-newpagetext-4": "Вы собираетесь создать страницу проекта под названием «<span class=\"extnewpage-new\">$1</span>». Страницы проектов предназначены для метаинформации об этой вики.",
+    "extnewpage-newpagetext-5": "Вы собираетесь создать страницу обсуждения проекта под названием «<span class=\"extnewpage-new\">$1</span>». Страницы проектов предназначены для метаинформации об этой вики.",
+    "extnewpage-newpagetext-6": "Вы собираетесь создать страницу с описанием файла под названием «<span class=\"extnewpage-new\">$1</span>». Не спешите! Возможно, вы хотите [[Служебная:Загрузка|загрузить]] его.",
+    "extnewpage-newpagetext-8": "Вы собираетесь создать страницу интерфейса MediaWiki под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-10": "Вы собираетесь создать страницу шаблона под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-12": "Вы собираетесь создать страницу со справкой под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-14": "Вы собираетесь создать страницу категории под названием «<span class=\"extnewpage-new\">$1</span>».",
+    "extnewpage-newpagetext-828": "Вы собираетесь создать страницу модуля под названием «<span class=\"extnewpage-new\">$1</span>». Здесь вы можете написать код на Lua.",
+    "extnewpage-newpagetext-2900": "Вы собираетесь создать страницу исходного кода интерактивной карты под названием «<span class=\"extnewpage-new\">$1</span>». Страницы карт используются с расширением DataMaps."
+}
