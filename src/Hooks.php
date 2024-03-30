@@ -23,6 +23,7 @@ final class Hooks implements
 				],
 				[
 					'extnewpage' => [
+						'id' => 't-newpage',
 						'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
 						'text' => $skin->msg( 'extnewpage-toolbox-label' )->text(),
 						'accesskey' => Linker::accesskey( 'extnewpage' ),
