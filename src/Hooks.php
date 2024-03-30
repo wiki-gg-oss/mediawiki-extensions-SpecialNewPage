@@ -14,10 +14,12 @@ final class Hooks implements
 	 * @return void
 	 */
 	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
-		$sidebar['TOOLBOX']['extnewpage'] = [
-			'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
-			'text' => $skin->msg( 'extnewpage-toolbox-label' )->text(),
-			'accesskey' => Linker::accesskey( 'extnewpage' ),
-		];
+		if ( !$skin->msg( 'extnewpage-toolbox-label' )->inContentLanguage()->isDisabled() ) {
+			$sidebar['TOOLBOX']['extnewpage'] = [
+				'href' => SpecialPage::getTitleFor( 'NewPage' )->getLocalURL(),
+				'text' => $skin->msg( 'extnewpage-toolbox-label' )->text(),
+				'accesskey' => Linker::accesskey( 'extnewpage' ),
+			];
+		}
 	}
 }
