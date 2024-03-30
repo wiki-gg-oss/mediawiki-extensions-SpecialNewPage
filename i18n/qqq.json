@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "alex4401"
+        ]
+    },
+    "extnewpage-desc": "{{desc\n| name = ThemeToggle\n| url = https://github.com/alex4401/SpecialNewPage\n}}",
+    "extnewpage-field-title": "Label of the namespace and title fields on the special page.",
+    "extnewpage-toolbox-label": "Link label shown in the sidebar's toolbox.",
+    "accesskey-extnewpage": "{{ignored}}\nHotkey for Special:NewPage if in toolbox. Do not change if not needed.",
+    "extnewpage-help-nsheading": "Informational heading in the page's right rail.",
+    "extnewpage-help-nstext": "Informational text about namespaces in MediaWiki in the page's right rail.",
+    "extnewpage-help-contributeheading": "Informational heading in the page's right rail.",
+    "extnewpage-help-contributetext": "Text guiding towards further edits in the page's right rail, always shown.",
+    "extnewpage-help-contributetext-searchdigest": "Text guiding towards further edits of pages indicated in Extension:SearchDigest in the page's right rail. This is only shown if Extension:SearchDigest is installed.",
+    "extnewpage-newpagetext-fallback": "Message shown below the title field, for a namespace without specialised text if title is correct.",
+    "extnewpage-newpagetext-0": "Message shown below the title field, for main namespace if title is correct.",
+    "extnewpage-newpagetext-1": "Message shown below the title field, for talk namespace if title is correct.",
+    "extnewpage-newpagetext-2": "Message shown below the title field, for user namespace if title is correct.",
+    "extnewpage-newpagetext-3": "Message shown below the title field, for user talk namespace if title is correct.",
+    "extnewpage-newpagetext-4": "Message shown below the title field, for project namespace if title is correct.",
+    "extnewpage-newpagetext-5": "Message shown below the title field, for project talk namespace if title is correct.",
+    "extnewpage-newpagetext-6": "Message shown below the title field, for file namespace if title is correct.",
+    "extnewpage-newpagetext-8": "Message shown below the title field, for MediaWiki namespace if title is correct.",
+    "extnewpage-newpagetext-10": "Message shown below the title field, for template namespace if title is correct.",
+    "extnewpage-newpagetext-12": "Message shown below the title field, for help namespace if title is correct.",
+    "extnewpage-newpagetext-14": "Message shown below the title field, for category namespace if title is correct.",
+    "extnewpage-newpagetext-828": "Message shown below the title field, for Scribunto/Module namespace if title is correct.",
+    "extnewpage-newpagetext-2900": "Message shown below the title field, for Extension:DataMaps namespace if title is correct."
+}
