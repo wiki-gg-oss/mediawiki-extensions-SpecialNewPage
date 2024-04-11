@@ -9,7 +9,7 @@
     "extnewpage-toolbox-label": "Новая страница",
     "extnewpage-help-nsheading": "Помогите! Для чего нужны эти поля?",
     "extnewpage-help-nstext": "Страницы MediaWiki разделяются на типы в зависимости от их пространств имён. Для подробной информации см. <a href=\"https://www.mediawiki.org/wiki/Help:Namespaces/ru\" target=\"_blank\" class=\"external\">Справка:Пространства имён</a>.",
-    "extnewpage-help-contributeheading": "Не знаете как лучще помочь?",
+    "extnewpage-help-contributeheading": "Не знаете как лучше помочь?",
     "extnewpage-help-contributetext": "Вы можете попробовать создать одну из [[Служебная:Требуемые страницы|требуемых страниц]] или [[Служебная:Требуемые категории|требуемых категорий]].",
     "extnewpage-help-contributetext-searchdigest": "Вы также можете посмотреть [[Служебная:SearchDigest|список несуществующих страниц, по которым производился поиск]] на этой вики.",
     "extnewpage-newpagetext-fallback": "Вы собираетесь создать страницу под названием «<span class=\"extnewpage-new\">$1</span>».",
