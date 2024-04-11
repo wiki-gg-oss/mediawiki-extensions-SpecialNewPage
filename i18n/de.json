@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "Rye Greenwood"
+        ]
+    },
+    "extnewpage-desc": "Erweitert das Wiki um eine [[Spezial:Neue Seite|Spezialseite]] zur einfacheren Erstellung eines neuen Artikels",
+    "extnewpage-field-title": "Gewünschten Titel eingeben:",
+    "extnewpage-toolbox-label": "Neue Seite",
+    "accesskey-extnewpage": "]",
+    "extnewpage-help-nsheading": "Was bedeuten diese Felder?",
+    "extnewpage-help-nstext": "Seiten in MediaWiki werden in Sammlungen gruppiert, die „Namensräume“ genannt werden und die auf einer hohen Ebene zwischen dem Zweck der Seiten unterscheiden. Für weitere Informationen siehe <a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Namespaces\" target=\"_blank\" class=\"external\">Hilfe:Namensräume</a>.",
+    "extnewpage-help-contributeheading": "Wie kann ich hiermit zum Wiki beitragen?",
+    "extnewpage-help-contributetext": "Du könntest eine der [[Spezial:Gewünschte Seiten|gewünschten Seiten]] oder [[Spezial:Gewünschte Kategorien|Kategorien]] erstellen. Diese werden auf anderen Seiten verlinkt, existieren aber noch nicht.",
+    "extnewpage-help-contributetext-searchdigest": "Du kannst dir auch die [[Special:SearchDigest|Liste der nicht existierenden Seiten, nach denen gesucht wurde]], ansehen.",
+    "extnewpage-newpagetext-fallback": "Es wird eine Seite namens <span class=\"extnewpage-new\">$1</span> vom Typ „$2“ erstellt.",
+    "extnewpage-newpagetext-0": "Es wird ein Artikel namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-1": "Es wird eine Diskussionsseite namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-2": "Es wird eine Benutzerseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Achtung: Im Benutzernamensraum solltest du nur Unterseiten erstellen!",
+    "extnewpage-newpagetext-3": "Es wird eine Benutzerdiskussionsseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Achtung: Im Benutzernamensraum solltest du nur Unterseiten erstellen!",
+    "extnewpage-newpagetext-4": "Es wird eine Projektseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Projektseiten dienen für Metainformationen über dieses Wiki.",
+    "extnewpage-newpagetext-5": "Es wird eine Projektdiskussionsseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Projektseiten dienen für Metainformationen über dieses Wiki.",
+    "extnewpage-newpagetext-6": "Es wird eine Dateibeschreibungsseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Achtung: Hiermit lädst du keine neue Datei hoch! Nutze dafür stattdessen die Seite [[Spezial:Hochladen]].",
+    "extnewpage-newpagetext-8": "Es wird eine MediaWiki-Interfaceseite namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-10": "Es wird eine Vorlagenseite namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-12": "Es wird eine Hilfeseite namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-14": "Es wird eine Kategorieseite namens <span class=\"extnewpage-new\">$1</span> erstellt.",
+    "extnewpage-newpagetext-828": "Es wird eine Modulseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Dort kannst du Lua-Code schreiben.",
+    "extnewpage-newpagetext-2900": "Es wird eine Kartenquellcodeseite namens <span class=\"extnewpage-new\">$1</span> erstellt. Interaktive Kartenseiten sind eine Funktion der MediaWiki-Erweiterung „DataMaps“."
+}
