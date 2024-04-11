@@ -16,12 +16,18 @@ $specialPageAliases['en'] = [
 ];
 
 /**
+ * @author Rye_Greenwood
+ */
+$specialPageAliases['de'] = [
+    'NewPage' => [ 'Neue Seite' ],
+];
+
+/**
  * @author alex4401
  */
 $specialPageAliases['pl'] = [
     'NewPage' => [ 'Nowa strona' ],
 ];
-
 
 /**
  * @author Horn772
