@@ -9,6 +9,13 @@
 $specialPageAliases = [];
 
 /**
+ * @author Rye_Greenwood
+ */
+$specialPageAliases['de'] = [
+    'NewPage' => [ 'Neue Seite' ],
+];
+
+/**
  * @author alex4401
  */
 $specialPageAliases['en'] = [
@@ -16,10 +23,10 @@ $specialPageAliases['en'] = [
 ];
 
 /**
- * @author Rye_Greenwood
+ * @author Mirageionova
  */
-$specialPageAliases['de'] = [
-    'NewPage' => [ 'Neue Seite' ],
+$specialPageAliases['es'] = [
+    'NewPage' => [ 'Página nueva' ],
 ];
 
 /**
