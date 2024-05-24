@@ -1,0 +1,30 @@
+{
+    "@metadata": {
+        "authors": [
+            "westgrass"
+        ]
+    },
+    "extnewpage-desc": "添加了 [[Special:NewPage]] 作为一种对新手更友好、更便捷的创建页面的方法。",
+    "extnewpage-field-title": "输入想要的标题：",
+    "extnewpage-toolbox-label": "新建页面",
+    "accesskey-extnewpage": "]",
+    "extnewpage-help-nsheading": "求助！这些字段是做什么的？",
+    "extnewpage-help-nstext": "MediaWiki 的页面根据其“命名空间”分为不同类型。请参阅<a href=\"https://www.mediawiki.org/wiki/Help:Namespaces\" target=\"_blank\" class=\"external\">帮助:命名空间</a>以获得更多信息。",
+    "extnewpage-help-contributeheading": "不确定该干什么？",
+    "extnewpage-help-contributetext": "可以试着创建[[Special:WantedPages|需要的页面]]或[[Special:WantedCategories|需要的分类]]。",
+    "extnewpage-help-contributetext-searchdigest": "也可以看看本 wiki 上[[Special:SearchDigest|被搜索过的缺失页面列表]]。",
+    "extnewpage-newpagetext-fallback": "即将创建名为<span class=\"extnewpage-new\">$1</span>的$2页面。",
+    "extnewpage-newpagetext-0": "即将创建名为<span class=\"extnewpage-new\">$1</span>的文章。",
+    "extnewpage-newpagetext-1": "即将创建名为<span class=\"extnewpage-new\">$1</span>的讨论页面。",
+    "extnewpage-newpagetext-2": "即将创建名为<span class=\"extnewpage-new\">$1</span>的用户页面。等一下！在用户命名空间中，可能应当创建子页面。",
+    "extnewpage-newpagetext-3": "即将创建名为<span class=\"extnewpage-new\">$1</span>的用户讨论页面。等一下！在用户命名空间中，可能应当创建子页面。",
+    "extnewpage-newpagetext-4": "即将创建名为<span class=\"extnewpage-new\">$1</span>的项目页面。项目页面用于提供关于此 wiki 的元信息。",
+    "extnewpage-newpagetext-5": "即将创建名为<span class=\"extnewpage-new\">$1</span>的项目讨论页面。项目页面用于提供关于此 wiki 的元信息。",
+    "extnewpage-newpagetext-6": "即将创建名为<span class=\"extnewpage-new\">$1</span>的文件描述页面。 等一下！可能应当[[Special:Upload|改用 Special:上传文件]]。",
+    "extnewpage-newpagetext-8": "即将创建名为<span class=\"extnewpage-new\">$1</span>的 MediaWiki 界面页面。",
+    "extnewpage-newpagetext-10": "即将创建名为<span class=\"extnewpage-new\">$1</span>的模板页面。",
+    "extnewpage-newpagetext-12": "即将创建名为<span class=\"extnewpage-new\">$1</span>的帮助页面。",
+    "extnewpage-newpagetext-14": "即将创建名为<span class=\"extnewpage-new\">$1</span>的分类页面。",
+    "extnewpage-newpagetext-828": "即将创建名为<span class=\"extnewpage-new\">$1</span>的模块页面。可以在其中编写 Lua 代码。",
+    "extnewpage-newpagetext-2900": "即将创建名为<span class=\"extnewpage-new\">$1</span>的交互式地图源代码页面。地图页面是与 DataMaps 扩展一起使用的。"
+}
