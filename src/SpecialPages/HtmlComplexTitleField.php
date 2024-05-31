@@ -28,6 +28,20 @@ class HtmlComplexTitleField extends HTMLTextField {
 		parent::__construct( $params );
 	}
 
+	/**
+	 * @return ?array
+	 */
+	public function getDefault() {
+		if ( is_string( $this->mDefault ) && !empty( $this->mDefault ) ) {
+			$title = Title::newFromText( $this->mDefault );
+			return [
+				'ns' => $title->getNamespace(),
+				'text' => $title->getText(),
+			];
+		}
+		return null;
+	}
+
 	public function validate( $value, $alldata ) {
 		// Default value (from getDefault()) is null
 		if ( $value === null || empty( $value ) ) {
@@ -57,10 +71,12 @@ class HtmlComplexTitleField extends HTMLTextField {
 	protected function getInputWidget( $params ) {
 		$params['namespace'] = [
 			'name' => $this->mName . '-ns',
+			'value' => ( $params['value'] ?? [] )[ 'ns' ] ?? 0,
 		];
 		$params['title'] = [
 			'name' => $this->mName . '-text',
 			'validateTitle' => true,
+			'value' => ( $params['value'] ?? [] )[ 'text' ] ?? '',
 		];
 		if ( $this->mParams['creatable'] ) {
 			$params['title']['suggestions'] = false;

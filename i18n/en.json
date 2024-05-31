@@ -5,9 +5,11 @@
         ]
     },
     "extnewpage-desc": "Adds [[Special:NewPage]] as a more newbie-friendly and quicker way of creating pages.",
-    "extnewpage-field-title": "Enter the desired title:",
     "extnewpage-toolbox-label": "New page",
+    "extnewpage-field-title": "Enter the desired title:",
     "extnewpage-redirect-toolbox-label": "New redirect",
+    "extnewpage-field-redirect-from": "From:",
+    "extnewpage-field-redirect-to": "To:",
     "accesskey-extnewpage": "]",
     "extnewpage-help-nsheading": "Help! What are these fields for?",
     "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See <a href=\"https://www.mediawiki.org/wiki/Help:Namespaces\" target=\"_blank\" class=\"external\">Help:Namespaces</a> for more information.",

@@ -46,7 +46,6 @@ final class Hooks implements
 			$sidebar['TOOLBOX'] = self::mergeBefore(
 				$sidebar['TOOLBOX'],
 				[
-					'extnewpage',
 					'upload',
 					'specialpages',
 				],

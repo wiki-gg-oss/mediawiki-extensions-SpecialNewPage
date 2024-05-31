@@ -20,6 +20,7 @@ $specialPageAliases['de'] = [
  */
 $specialPageAliases['en'] = [
 	'NewPage' => [ 'NewPage', 'New_Page' ],
+    'NewRedirect' => [ 'NewRedirect', 'New_Redirect' ],
 ];
 
 /**
