@@ -32,7 +32,7 @@ final class Hooks implements
 			);
 		}
 
-		if ( false && !$skin->msg( 'extnewpage-redirect-toolbox-label' )->inContentLanguage()->isDisabled() ) {
+		if ( !$skin->msg( 'extnewpage-redirect-toolbox-label' )->inContentLanguage()->isDisabled() ) {
 			$query = [];
 			// If this is not a virtual page, we can probably prefill the form fields.
 			//
