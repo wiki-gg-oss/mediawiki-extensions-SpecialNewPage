@@ -56,9 +56,6 @@
 	"SpecialPages": {
 		"NewPage": {
 			"class": "MediaWiki\\Extension\\NewPage\\SpecialPages\\SpecialNewPage"
-		},
-		"NewRedirect": {
-			"class": "MediaWiki\\Extension\\NewPage\\SpecialPages\\SpecialNewRedirect"
 		}
 	},
 	"Hooks": {
