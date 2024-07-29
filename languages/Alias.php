@@ -19,8 +19,8 @@ $specialPageAliases['de'] = [
  * @author alex4401
  */
 $specialPageAliases['en'] = [
-	'NewPage' => [ 'NewPage', 'New_Page' ],
-    'NewRedirect' => [ 'NewRedirect', 'New_Redirect' ],
+	'NewPage' => [ 'NewPage', 'New Page' ],
+    'NewRedirect' => [ 'NewRedirect', 'New Redirect' ],
 ];
 
 /**
@@ -28,6 +28,13 @@ $specialPageAliases['en'] = [
  */
 $specialPageAliases['es'] = [
     'NewPage' => [ 'Página nueva' ],
+];
+
+/**
+ * @author Rainbow3ntity
+ */
+$specialPageAliases['it'] = [
+    'NewPage' => [ 'Nuova Pagina', 'Nuova pagina' ],
 ];
 
 /**
