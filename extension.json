@@ -3,9 +3,10 @@
 	"version": "1.2.3",
 
 	"author": [
-		"alex4401"
+		"wiki.gg development team",
+		"alex4401 <alex@wiki.gg>"
 	],
-	"url": "https://github.com/alex4401/mediawiki-extensions-SpecialNewPage",
+	"url": "https://github.com/wiki-gg-oss/mediawiki-extensions-SpecialNewPage",
 	"descriptionmsg": "extnewpage-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
