@@ -27,7 +27,7 @@ final class SpecialNewPage extends SpecialNewPageBase {
 				'padded' => false,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( 
-				   	Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-nsheading' ) )
+				   	Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-nsheading' )->parse() )
 					. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' )->parse() )
 				),
 			] ) ,
@@ -37,7 +37,7 @@ final class SpecialNewPage extends SpecialNewPageBase {
 				'padded' => false,
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( implode( ' ', [
-					Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-contributeheading' ) ),
+					Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-contributeheading' )->parse() ),
 					$this->msg( 'extnewpage-help-contributetext' )->parse(),
 					$hasSearchDigest ? $this->msg( 'extnewpage-help-contributetext-searchdigest' )->parse() : false,
 				] ) ),
