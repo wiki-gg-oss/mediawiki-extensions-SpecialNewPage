@@ -12,7 +12,7 @@
     "extnewpage-field-redirect-to": "To:",
     "accesskey-extnewpage": "]",
     "extnewpage-help-nsheading": "Help! What are these fields for?",
-    "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See <a href=\"https://www.mediawiki.org/wiki/Help:Namespaces\" target=\"_blank\" class=\"external\">Help:Namespaces</a> for more information.",
+    "extnewpage-help-nstext": "MediaWiki pages are divided into types based on their \"namespaces\". See [https://www.mediawiki.org/wiki/Help:Namespaces Help:Namespaces] for more information.",
     "extnewpage-help-contributeheading": "Not sure how best to help?",
     "extnewpage-help-contributetext": "You can try creating one of the [[Special:WantedPages|Wanted Pages]] or [[Special:WantedCategories|Wanted Categories]].",
     "extnewpage-help-contributetext-searchdigest": "You can also see a [[Special:SearchDigest|list of missing pages that have been searched for]] on this wiki.",
