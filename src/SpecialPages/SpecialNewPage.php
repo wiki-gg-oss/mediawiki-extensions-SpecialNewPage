@@ -28,7 +28,7 @@ final class SpecialNewPage extends SpecialNewPageBase {
 				'framed' => false,
 				'content' => new \OOUI\HtmlSnippet( 
 				   	Html::rawElement( 'h2', [], $this->msg( 'extnewpage-help-nsheading' ) )
-					. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' )->plain() )
+					. Html::rawElement( 'p', [], $this->msg( 'extnewpage-help-nstext' )->parse() )
 				),
 			] ) ,
 			new \OOUI\PanelLayout( [
