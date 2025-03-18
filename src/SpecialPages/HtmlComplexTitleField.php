@@ -1,11 +1,9 @@
 <?php
 namespace MediaWiki\Extension\NewPage\SpecialPages;
 
-use HTMLTextField;
-use MalformedTitleException;
+use MediaWiki\HTMLForm\Field\HTMLTextField;
+use MediaWiki\Title\Title;
 use MediaWiki\Widget\ComplexTitleInputWidget;
-use Title;
-use WebRequest;
 
 /**
  * ComplexTitleInputWidget wrapper for HTMLForm.

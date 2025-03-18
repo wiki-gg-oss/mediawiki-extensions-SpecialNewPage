@@ -1,10 +1,7 @@
 <?php
 namespace MediaWiki\Extension\NewPage\SpecialPages;
 
-use ExtensionRegistry;
-use Html;
-use HTMLForm;
-use Title;
+use MediaWiki\HTMLForm\HTMLForm;
 
 final class SpecialNewRedirect extends SpecialNewPageBase {
 	public function __construct() {

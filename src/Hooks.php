@@ -1,9 +1,8 @@
 <?php
 namespace MediaWiki\Extension\NewPage;
 
-use Linker;
-use Skin;
-use SpecialPage;
+use MediaWiki\Linker\Linker;
+use MediaWiki\SpecialPage\SpecialPage;
 
 final class Hooks implements
     \MediaWiki\Hook\SidebarBeforeOutputHook

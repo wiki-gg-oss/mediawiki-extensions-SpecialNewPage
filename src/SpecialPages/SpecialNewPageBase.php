@@ -1,11 +1,9 @@
 <?php
 namespace MediaWiki\Extension\NewPage\SpecialPages;
 
-use ExtensionRegistry;
-use FormSpecialPage;
-use Html;
-use HTMLForm;
-use Title;
+use MediaWiki\Html\Html;
+use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\SpecialPage\FormSpecialPage;
 
 abstract class SpecialNewPageBase extends FormSpecialPage {
 	/**

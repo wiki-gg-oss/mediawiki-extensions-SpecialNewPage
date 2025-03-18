@@ -3,7 +3,6 @@ namespace MediaWiki\Extension\NewPage\ResourceLoader;
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\ResourceLoader\FileModule;
-use Message;
 
 class NewPageModule extends FileModule {
     /**

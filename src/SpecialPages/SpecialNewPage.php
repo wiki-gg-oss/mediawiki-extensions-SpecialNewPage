@@ -1,9 +1,9 @@
 <?php
 namespace MediaWiki\Extension\NewPage\SpecialPages;
 
-use ExtensionRegistry;
-use Html;
-use Title;
+use MediaWiki\Html\Html;
+use MediaWiki\Registration\ExtensionRegistry;
+use MediaWiki\Title\Title;
 
 final class SpecialNewPage extends SpecialNewPageBase {
 	public function __construct() {
